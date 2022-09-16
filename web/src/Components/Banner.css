@@ -1,0 +1,54 @@
+.banner{
+    background-color: black;
+    background: url('../Assests/1.jpg') center  center;
+    /* background:url('https://tse3.mm.bing.net/th?id=1.F9I72ivva2ZvFSH_NFYyhttps://www.bing.com/images/search?view=detailV2&ccid=b9v6lHUv&id=A1C1EE589CD78C63AE6483467A02DA2E4187C22E&thid=OIP.b9v6lHUvJ1FWTQnCg_haZAHaEo&mediaurl=https%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fd%2f2%2fe%2f619058.jpg&exph=1600&expw=2560&q=+bike+photo&simid=607987350278179634&FORM=IRPRST&ck=6E14E89DE042E6D211E54AF943C53C0A&selectedIndex=4&ajaxhist=0&ajaxserp=0MQHaDH&pid=Api&P=0&w=454&h=191')  center  center; */
+    height:57vh;
+    position:relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_info{
+    background-color:black;
+    color:white;
+    padding: 20vh 50px 40px 50px;
+    width:300px;
+}
+
+.banner_info  >button{
+    background-color:#ff7779;
+    color:white;
+    text-transform:inherit;
+    font-weight:600;
+    margin-top:20px;
+
+}
+
+.banner_info >h5{
+    margin-top: 10px;
+}
+
+.banner_info > button:hover{
+    background-color:white;
+    color:#ff7779;
+}
+
+.banner_search{
+    display:flex;
+    flex-direction: column;
+}
+
+.button_searchButton{
+    background-color:white !important; 
+    font-weight:900 !important;
+    color:#ff7779   !important;
+    text-transform:inherit !important;
+}
+
+@media screen and (max-width:1000px){
+    .banner_info{
+        display: none;
+    }
+}
